@@ -3562,7 +3562,7 @@ input[type=submit]:focus {
 .special-item .special-content {
   background-color: #ffffff;
   box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.08);
-  margin-top: -145px;
+  margin-top: -50px;
   padding: 30px;
   position: relative;
   margin-left: 15px;
@@ -3741,7 +3741,7 @@ input[type=submit]:focus {
 }
 .home .subscribe-section {
   padding: 195px 0 75px;
-  margin-top: -100px;
+  margin-top: -60px;
 }
 .subscribe-section:before {
   background-color: #101F46;
@@ -4218,7 +4218,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
   background-repeat: no-repeat;
   background-position: center center;
   margin-top: -136px;
-  min-height: 385px;
+  min-height: 350px;
 }
 .contact-section .contact-details-wrap {
   padding-left: 20px;
@@ -8803,4 +8803,340 @@ figure {
 
 .package-wrap .package-content {
     padding: 16px 30px 16px;
+}
+
+
+.package-heading-highlight{
+  font-weight: 500 !important;
+}
+
+
+.border_radius_div{
+  border-radius: 20px;
+}
+
+
+/* price section */
+ .price-section {
+      position: relative;
+      overflow: hidden;
+      padding: 3rem 1rem;
+      background-color: #f5f5f5;
+    }
+
+    .price-section h2 {
+      text-align: center;
+      font-family: serif;
+      font-size: 2rem;
+      line-height: 1.2;
+      margin-bottom: 2rem;
+    }
+
+    .grid {
+      display: grid;
+      gap: 1.5rem;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .card {
+      position: relative;
+      background-color: #fff;
+      border: 1px solid rgba(148, 163, 184, 0.6);
+      border-radius: 1rem;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+      padding: 1rem;
+      overflow: hidden;
+    }
+
+    .card .tab {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #243e84;
+      color: white;
+      font-weight: 600;
+      font-size: 0.875rem;
+      padding: 0.5rem 2.5rem;
+      border-radius: 9999px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+      text-align: center;
+    }
+
+    .card dl {
+      margin-top: 1.5rem;
+    }
+
+    .card dt {
+      color: #334155;
+    }
+
+    .card dd {
+      font-weight: 600;
+      color: #0f172a;
+      margin: 0;
+    }
+
+    .card .card-body {
+      padding-top: 3rem;
+    }
+
+    /* Layered background diagonal wedge */
+    .background-wedge {
+      position: absolute;
+      inset: 0;
+      z-index: -1;
+      background-color: rgba(255, 167, 38, 0.95);
+      clip-path: polygon(60% 0%, 100% 0%, 100% 100%, 0% 100%);
+    }
+
+
+    /* Reset and basic styles */
+
+
+/* Section Styles */
+.location-section {
+  padding: 3rem 1rem;
+  background-color: #f4f1ed;
+}
+
+
+.section-title {
+  text-align: center;
+  font-family: 'Georgia', serif;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+@media (min-width: 640px) {
+  .section-title {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .section-title {
+    font-size: 3rem;
+  }
+}
+
+.section-subtitle {
+  text-align: center;
+  max-width: 800px;
+  margin: 0.5rem auto 2rem;
+  font-size: 0.9rem;
+  color: #6b6b6b;
+}
+
+@media (min-width: 640px) {
+  .section-subtitle {
+    font-size: 1rem;
+  }
+}
+
+/* Grid Layout */
+.content-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+@media (min-width: 1024px) {
+  .content-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+  }
+}
+
+/* List Styles */
+.location-list ul {
+  list-style: none;
+  border-top: 1px solid #ccc;
+}
+
+.location-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.item-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.icon {
+  display: inline-flex;
+  height: 2.25rem;
+  width: 2.25rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: white;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+  color: #7a675c;
+}
+
+.item-text {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #222;
+}
+
+.item-time {
+  font-size: 0.85rem;
+  color: #6b6b6b;
+}
+
+/* Map Styles */
+.map-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.map-container iframe {
+  width: 100%;
+  max-width: 600px;
+  height: 490px;
+  border: 0;
+  border-radius: 12px;
+}
+
+
+
+
+/* Section */
+.price-section {
+  position: relative;
+  overflow: hidden;
+  padding: 3rem 1rem;
+}
+
+/* Background layers */
+.background-layer {
+  position: absolute;
+  inset: 0;
+  z-index: -10;
+  pointer-events: none;
+}
+
+.bg-base {
+  position: absolute;
+  inset: 0;
+  background-color: #f4f1ed;
+}
+
+.bg-accent {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(255, 123, 0, 0.95); /* warm accent color */
+  clip-path: polygon(60% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* Title */
+.section-title {
+  text-align: center;
+  font-family: 'Georgia', serif;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 640px) {
+  .section-title {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .section-title {
+    font-size: 3rem;
+  }
+}
+
+/* Grid */
+.price-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .price-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+}
+
+/* Card */
+.price-card {
+  position: relative;
+  border-radius: 1rem;
+  border: 1px solid rgba(0,0,0,0.1);
+  background-color: #fff;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.05);
+  overflow: hidden;
+}
+
+/* Card top spacing */
+.card-top {
+  height: 2.5rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  background-color: #fff;
+}
+
+/* Label circle */
+.card-label {
+  position: absolute;
+  top: 34px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #243e84;
+  color: #fff;
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 0.5rem 2rem;
+  border-radius: 9999px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+/* Card content */
+.card-content {
+  padding: 1.5rem 1.5rem 2rem;
+}
+
+.card-content dl {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.dl-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dl-item dt {
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.dl-item dd {
+  font-weight: 600;
+  color: #222;
+  font-size: 0.95rem;
 }
