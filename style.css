@@ -9140,3 +9140,20 @@ figure {
   color: #222;
   font-size: 0.95rem;
 }
+
+
+
+.contact-section .contact-img {
+   
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      margin-top: 59px !important;
+      min-height: 70px !important;
+  }
+
+@media (max-width:1024px){
+  .contact-section .contact-img {
+      display: none;
+  }
+}
