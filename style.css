@@ -497,7 +497,7 @@ a {
   transition: color 0.3s;
 }
 a:hover, a:focus, a:active {
-  color: #2C75BA;
+  color: #ffd277;
   text-decoration: none;
   outline: 0;
 }
@@ -573,9 +573,19 @@ a:visited {
   font-weight: 900;
   line-height: 1.1;
   text-transform: uppercase;
+   color: #E9B63B  !important;
+}
+
+.price-section h2 {
+    text-align: center;
+    font-family: serif;
+    font-size: 2rem;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+    color: #E9B63B;
 }
 .section-heading h5 {
-  color: #F56960;
+  color: #2bac5a;
   font-size: 15px;
   font-weight: 700;
   line-height: 1.2;
@@ -605,7 +615,7 @@ a:visited {
   position: relative;
 }
 .section-heading .dash-style:before {
-  background-color: #F56960;
+  background-color: #F5AD18;
   content: "";
   height: 2px;
   width: 70px;
@@ -888,7 +898,7 @@ form label {
   transition: background-color 0.4s;
 }
 .search-form button:hover {
-  background-color: #2C75BA;
+  background-color: #ffd277;
 }
 
 .form-group {
@@ -1053,7 +1063,7 @@ input[type=reset]:focus,
 input[type=submit]:hover,
 input[type=submit]:active,
 input[type=submit]:focus {
-  background-color: #2C75BA;
+  background-color: #ffd277;
 }
 
 .button-primary,
@@ -1085,7 +1095,7 @@ input[type=submit]:focus {
 .button-secondary:hover,
 .button-secondary:focus,
 .button-secondary:active {
-  background-color: #2C75BA;
+  background-color: #ffd277;
   color: #ffffff;
 }
 
@@ -1107,8 +1117,8 @@ input[type=submit]:focus {
 .outline-round:hover,
 .outline-round:focus,
 .outline-round:active {
-  background-color: #2C75BA;
-  border-color: #2C75BA;
+  background-color: #ffd277;
+  border-color: #ffd277;
   color: #ffffff;
 }
 
@@ -1139,7 +1149,7 @@ input[type=submit]:focus {
 >>> Default 
 ----------------------------------------------------------------*/
 .white-bg {
-  background-color: #ffffff;
+  background-color: #F8F4F0;
 }
 
 .bg-light-grey {
@@ -1204,7 +1214,7 @@ input[type=submit]:focus {
   transition: color 0.4s;
 }
 .social-links a:hover, .social-links a:focus, .social-links a:active {
-  color: #2C75BA;
+  color: #ffd277;
 }
 
 .social-icon-wrap {
@@ -1306,7 +1316,7 @@ input[type=submit]:focus {
   transition: background-color 0.3s, color 0.3s;
 }
 .to-top-icon:hover {
-  background-color: #2C75BA;
+  background-color: #ffd277;
   color: #ffffff;
 }
 @media screen and (max-width: 575px) {
@@ -1404,7 +1414,7 @@ input[type=submit]:focus {
 }
 
 .header-contact-info {
-  color: #fafafa;
+  color: black;
   padding: 11px 0;
 }
 .header-contact-info ul {
@@ -1428,7 +1438,7 @@ input[type=submit]:focus {
   margin-right: 5px;
 }
 .header-contact-info ul li a {
-  color: #fcfcfc;
+  color: black;
   display: block;
   -webkit-transition: color 0.4s linear;
   -moz-transition: color 0.4s linear;
@@ -1437,7 +1447,7 @@ input[type=submit]:focus {
   transition: color 0.4s linear;
 }
 .header-contact-info ul li a:hover, .header-contact-info ul li a:focus, .header-contact-info ul li a:active {
-  color: #2C75BA;
+  color: #ffd277;
 }
 
 .header-social {
@@ -1460,10 +1470,10 @@ input[type=submit]:focus {
   margin: 0 8px;
 }
 .header-social a {
-  color: #fafafa;
+  color: black;
 }
 .header-social a:hover, .header-social a:focus {
-  color: #2C75BA;
+  color: #ffd277;
 }
 @media screen and (max-width: 991px) {
   .header-social {
@@ -1501,7 +1511,7 @@ input[type=submit]:focus {
 }
 .header-search-icon .search-icon:hover, .header-search-icon .search-icon:focus {
   outline: none;
-  color: #2C75BA;
+  color: #ffd277;
 }
 
 /*--- top header css end ---*/
@@ -1583,7 +1593,7 @@ input[type=submit]:focus {
   display: none;
 }
 .main-navigation ul > li > a {
-  color: #ffffff;
+  color: black;
   display: inline-block;
   font-size: 15px;
   padding: 30px 0;
@@ -1690,7 +1700,7 @@ input[type=submit]:focus {
   transition: transform 0.4s;
 }
 .main-navigation ul li.menu-item-has-children li:hover > a, .main-navigation ul li.menu-item-has-children li:focus > a {
-  background-color: #2C75BA;
+  background-color: #ffd277;
   color: #ffffff;
 }
 .main-navigation ul li.current-menu-item > a, .main-navigation ul li.current-menu-parent > a {
@@ -1870,7 +1880,7 @@ input[type=submit]:focus {
   transition: background-color 0.4s;
 }
 .header-search-form .search-close:hover, .header-search-form .search-close:focus, .header-search-form .search-close:active {
-  color: #2C75BA;
+  color: #ffd277;
 }
 .header-search-form.search-in {
   opacity: 1;
@@ -1893,7 +1903,8 @@ input[type=submit]:focus {
 
 @media screen and (min-width: 992px) {
   .fixed-header .bottom-header {
-    background-color: #ffffff;
+    background-color: #F7F6F2;
+    /* background-color: green;; */
     -webkit-box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.2);
     -moz-box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.2);
     -ms-box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.2);
@@ -1929,7 +1940,7 @@ input[type=submit]:focus {
   color: #101F46;
 }
 .fixed-header .header-icons .icon-item a:hover {
-  color: #2C75BA;
+  color: #ffd277;
 }
 @media screen and (max-width: 991px) {
   .fixed-header .mobile-menu-container {
@@ -2097,7 +2108,7 @@ input[type=submit]:focus {
 }
 .slicknav_menu .slicknav_nav li a:hover, .slicknav_menu .slicknav_nav li a:focus, .slicknav_menu .slicknav_nav li a:active {
   background-color: transparent;
-  color: #2C75BA;
+  color: #ffd277;
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
   -ms-border-radius: 0px;
@@ -2273,7 +2284,7 @@ input[type=submit]:focus {
 .slick-slider .slick-next:hover:before,
 .slick-slider .slick-next:focus:before,
 .slick-slider .slick-next:active:before {
-  background-color: #2C75BA;
+  background-color: #ffd277;
   color: #ffffff;
 }
 
@@ -2577,7 +2588,7 @@ input[type=submit]:focus {
   margin-bottom: auto;
 }
 .trip-search-section input[type=submit]:hover, .trip-search-section input[type=submit]:focus {
-  background-color: #2C75BA;
+  background-color: #ffd277;
   color: #ffffff;
 }
 @media screen and (min-width: 576px) {
@@ -2699,7 +2710,7 @@ input[type=submit]:focus {
   transition: background-color 0.3s;
 }
 .desti-item .meta-cat a:hover, .desti-item .meta-cat a:focus {
-  color: #2C75BA;
+  color: #ffd277;
 }
 .desti-item .bg-meta-cat {
   position: absolute;
@@ -4120,7 +4131,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
   line-height: 1.1;
 }
 .blog-section .entry-meta a:hover, .blog-section .entry-meta a:focus {
-  color: #2C75BA;
+  color: #ffd277;
 }
 @media screen and (max-width: 991px) {
   .blog-section {
@@ -4362,7 +4373,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
   transition: background-color 0.4s;
 }
 .team-item .social-links a:hover {
-  background-color: #2C75BA;
+  background-color: #ffd277;
 }
 
 /*--------------------------------------------------------------
@@ -4466,7 +4477,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
   color: #ffffff;
 }
 .site-footer .copy-right a:hover {
-  color: #2C75BA;
+  color: #ffd277;
 }
 .site-footer .footer-menu ul {
   margin: 0;
@@ -4495,7 +4506,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
   font-size: 15px;
 }
 .site-footer .footer-menu ul li a:hover, .site-footer .footer-menu ul li a:focus {
-  color: #2C75BA;
+  color: #ffd277;
 }
 @media screen and (max-width: 575px) {
   .site-footer {
@@ -4550,7 +4561,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
   color: #ffffff;
 }
 .footer-primary .widget ul li a:hover, .footer-primary .widget ul li a:focus, .footer-primary .widget ul li a:active {
-  color: #2C75BA;
+  color: #ffd277;
 }
 @media screen and (max-width: 991px) {
   .footer-primary .widget {
@@ -4643,7 +4654,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
   color: #ffffff;
 }
 .inner-baner-container .breadcrumb li a:hover {
-  color: #2C75BA;
+  color: #ffd277;
 }
 .inner-baner-container .breadcrumb li.active {
   color: #b3b3b3;
@@ -4966,7 +4977,7 @@ procduct details css
     padding: 15px 20px;
   }
   .tab-container .nav.nav-tabs a:hover, .tab-container .nav.nav-tabs a:focus, .tab-container .nav.nav-tabs a.active {
-    background-color: #2C75BA;
+    background-color: #ffd277;
     color: #ffffff;
   }
 }
@@ -5327,7 +5338,7 @@ procduct details css
   line-height: 1.1;
 }
 .grid-item .entry-meta a:hover, .grid-item .entry-meta a:focus {
-  color: #2C75BA;
+  color: #ffd277;
 }
 
 /*--------------------------------------------------------------
@@ -5384,7 +5395,7 @@ procduct details css
   transition: all 0.3s;
 }
 .inner-banner-wrap .entry-meta a:hover, .inner-banner-wrap .entry-meta a:focus {
-  color: #2C75BA;
+  color: #ffd277;
 }
 
 .single-post-section {
@@ -5415,7 +5426,7 @@ procduct details css
   margin: 0 3px;
 }
 .single-post-section .meta-wrap .tag-links a:hover {
-  color: #2C75BA;
+  color: #ffd277;
 }
 .single-post-section .author-wrap {
   background-color: #f9f9f9;
@@ -5463,7 +5474,7 @@ procduct details css
   color: #F56960;
 }
 .single-post-section .author-wrap .author-content .button-text:hover {
-  color: #2C75BA;
+  color: #ffd277;
 }
 @media screen and (max-width: 575px) {
   .single-post-section .author-wrap {
@@ -5535,13 +5546,13 @@ procduct details css
 .post-navigation .nav-next a:hover,
 .post-navigation .nav-next a:focus,
 .post-navigation .nav-next a:active {
-  color: #2C75BA;
+  color: #ffd277;
 }
 .post-navigation .nav-prev a:hover .nav-label, .post-navigation .nav-prev a:focus .nav-label, .post-navigation .nav-prev a:active .nav-label,
 .post-navigation .nav-next a:hover .nav-label,
 .post-navigation .nav-next a:focus .nav-label,
 .post-navigation .nav-next a:active .nav-label {
-  color: #2C75BA;
+  color: #ffd277;
 }
 .post-navigation .nav-prev {
   float: left;
@@ -5654,7 +5665,7 @@ procduct details css
   font-size: 12px;
 }
 .comment-area .comment-content .reply:hover {
-  background-color: #2C75BA;
+  background-color: #ffd277;
 }
 @media screen and (max-width: 575px) {
   .comment-area .comment-thumb {
@@ -6092,8 +6103,8 @@ procduct details css
   line-height: 34px;
 }
 .comming-soon-section .social-icons a:hover {
-  border-color: #2C75BA;
-  color: #2C75BA;
+  border-color: #ffd277;
+  color: #ffd277;
 }
 .comming-soon-section .com-contact-info {
   color: #ffffff;
@@ -6128,7 +6139,7 @@ procduct details css
   transition: color 0.4s linear;
 }
 .comming-soon-section .com-contact-info ul li a:hover, .comming-soon-section .com-contact-info ul li a:focus, .comming-soon-section .com-contact-info ul li a:active {
-  color: #2C75BA;
+  color: #ffd277;
 }
 @media screen and (min-width: 1200px) {
   .comming-soon-section {
@@ -6266,7 +6277,7 @@ procduct details css
   text-transform: uppercase;
 }
 .search-section .button-container .button-text:hover {
-  color: #2C75BA;
+  color: #ffd277;
 }
 
 /*--------------------------------------------------------------
@@ -6667,7 +6678,7 @@ procduct details css
     font-size: 15px;
   }
   .career-detail-section .nav.nav-tabs a:hover, .career-detail-section .nav.nav-tabs a:focus, .career-detail-section .nav.nav-tabs a.active {
-    background-color: #2C75BA;
+    background-color: #ffd277;
     color: #ffffff;
   }
 }
@@ -6898,7 +6909,7 @@ procduct details css
   display: inline-block;
 }
 .product-item .product-content .product-cat a:hover {
-  color: #2C75BA;
+  color: #ffd277;
 }
 .product-item .product-content .product-price {
   font-size: 23px;
@@ -7024,7 +7035,7 @@ procduct details css
   transition: background-color 0.3s, color 0.3s;
 }
 .single-product-item .image-search-icon a:hover {
-  background-color: #2C75BA;
+  background-color: #ffd277;
   color: #ffffff;
 }
 
@@ -7096,7 +7107,7 @@ procduct details css
   color: #383838;
 }
 .product-summary .product-meta a:hover {
-  color: #2C75BA;
+  color: #ffd277;
 }
 @media screen and (min-width: 992px) {
   .product-summary {
@@ -7806,7 +7817,7 @@ product checkout css
 }
 .ui-datepicker .ui-datepicker-prev.ui-state-hover,
 .ui-datepicker .ui-datepicker-next.ui-state-hover {
-  background-color: #2C75BA;
+  background-color: #ffd277;
   color: #ffffff;
 }
 .ui-datepicker .ui-datepicker-prev span:before {
@@ -7848,7 +7859,7 @@ product checkout css
   transition: background-color 0.4s, color 0.4s;
 }
 .ui-datepicker .ui-datepicker-calendar tr td a:hover, .ui-datepicker .ui-datepicker-calendar tr td a:focus, .ui-datepicker .ui-datepicker-calendar tr td a:active {
-  background-color: #2C75BA;
+  background-color: #ffd277;
   color: #ffffff;
 }
 .ui-datepicker .ui-datepicker-calendar tr td a.ui-state-highlight {
@@ -7856,7 +7867,7 @@ product checkout css
   color: #ffffff;
 }
 .ui-datepicker .ui-datepicker-calendar tr td a.ui-state-active {
-  background-color: #2C75BA;
+  background-color: #ffd277;
   color: #ffffff;
 }
 
@@ -7947,7 +7958,7 @@ product checkout css
   outline: 0;
 }
 .modal-video-close-btn:hover:after, .modal-video-close-btn:focus:after, .modal-video-close-btn:active:after {
-  color: #2C75BA;
+  color: #ffd277;
 }
 
 .breadcrumb-content {
@@ -7970,7 +7981,7 @@ product checkout css
   font-weight: 600;
 }
 .breadcrumb-content .breadcrumb li a:hover {
-  color: #2C75BA;
+  color: #ffd277;
 }
 
 .popup-wraper {
@@ -8195,7 +8206,7 @@ product checkout css
   color: #383838;
 }
 .widget ul li a:hover {
-  color: #2C75BA;
+  color: #ffd277;
 }
 .widget.author_widget {
   text-align: center;
@@ -8253,7 +8264,7 @@ product checkout css
   border: 1px solid #A7A7A7;
 }
 .widget.author_widget .socialgroup ul li a:hover, .widget.author_widget .socialgroup ul li a:focus, .widget.author_widget .socialgroup ul li a:active {
-  color: #2C75BA;
+  color: #ffd277;
 }
 .widget.author_widget .profile .avatar {
   width: 150px;
@@ -8337,7 +8348,7 @@ product checkout css
   line-height: 1.1;
 }
 .widget.widget-post-thumb .post-content .entry-meta a:hover, .widget.widget-post-thumb .post-content .entry-meta a:focus {
-  color: #2C75BA;
+  color: #ffd277;
 }
 .widget.widget_tag_cloud .tagcloud {
   display: -webkit-box;
@@ -8372,7 +8383,7 @@ product checkout css
   transition: background-color 0.4s;
 }
 .widget.widget_tag_cloud .tagcloud a:hover {
-  background-color: #2C75BA;
+  background-color: #ffd277;
   color: #ffffff;
 }
 .widget.widget_recent_post li {
@@ -8420,7 +8431,7 @@ product checkout css
   line-height: 1.1;
 }
 .widget.widget_recent_post li .entry-meta a:hover, .widget.widget_recent_post li .entry-meta a:focus {
-  color: #2C75BA;
+  color: #ffd277;
 }
 .widget .gallery,
 .widget .insta-gallery {
@@ -8515,7 +8526,7 @@ product checkout css
   transition: background-color 0.4s;
 }
 .widget.search_widget button:hover {
-  background-color: #2C75BA;
+  background-color: #ffd277;
 }
 .widget.widget_social ul {
   margin: -2px;
@@ -8538,8 +8549,8 @@ product checkout css
   transition: all 0.3s;
 }
 .widget.widget_social ul li a:hover {
-  background-color: #2C75BA;
-  border-color: #2C75BA;
+  background-color: #ffd277;
+  border-color: #ffd277;
   color: #ffffff;
 }
 .widget.price_handel_widget .price-amout {
@@ -8677,7 +8688,7 @@ product checkout css
   line-height: 1.1;
 }
 .widget.widget-product-thumb .product-content .entry-meta a:hover, .widget.widget-product-thumb .product-content .entry-meta a:focus {
-  color: #2C75BA;
+  color: #ffd277;
 }
 .widget.widget_category_product_thumb ul {
   display: -webkit-box;
@@ -9327,3 +9338,386 @@ figure {
     }
 
 
+
+
+
+
+
+
+
+
+.align-items-end h3 {
+  color: #E9B63B;
+}
+
+
+    /* rohit css own */
+    .top-header{
+      background-color: #F7F6F2;
+      color: black !important;
+    }
+
+
+    .bottom-header{
+      background-color: #f3eee7 ;
+    }
+
+
+    .destination-section{
+      background-color: #F7F6F2  ;
+    }
+
+    #highlight{
+      background-color: #f3eee7 ;
+    }
+
+    .package-content{
+      background-color: #F7F6F2 ;
+    }
+
+    .price-section{
+      background-color:  #F7F6F2;
+    }
+
+    .price-card , .card-top{
+      background-color: #f3eee7;
+    }
+    /* rohit css own */
+
+
+
+
+    
+  /* Animated Gold Button */
+.Btn {
+  width: 140px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(to right, #77530a, #ffd277, #77530a, #ffd277);
+  background-size: 250%;
+  background-position: 0% 50%;
+  color: #ffffff;
+  font-weight: 600;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.2s;
+  overflow: hidden;
+  animation: goldMove 3s linear infinite;
+}
+
+/* Black overlay layer */
+.Btn::before {
+  content: "";
+  position: absolute;
+  inset: 3px;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, -17.15);
+  z-index: 0;
+}
+
+/* Text on top */
+.Btn span,
+.Btn {
+  position: relative;
+  z-index: 1;
+}
+
+.Btn:hover {
+  transform: scale(1.05);
+}
+
+.Btn:active {
+  transform: scale(0.95);
+}
+
+/* Gold shimmer animation */
+@keyframes goldMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+
+
+
+/* Fixed Side Enquiry Button Container */
+.side-enquiry-btn {
+  position: fixed;
+  top: 50%;
+  right: -20px; /* distance from right edge */
+  transform: translateY(-50%);
+  z-index: 9999;
+}
+
+/* Animated Gold Button */
+.gold-btn {
+  width: 140px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(to right, #77530a, #ffd277, #77530a, #ffd277);
+  background-size: 250%;
+  background-position: 0% 50%;
+  color: #ffffff;
+  font-weight: 600;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.2s;
+  overflow: hidden;
+  animation: goldMove 3s linear infinite;
+}
+
+/* Inner dark layer for text contrast */
+.gold-btn::before {
+  content: "";
+  position: absolute;
+  inset: 3px;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0,-17.15);
+  z-index: 0;
+}
+
+/* Text stays on top */
+.gold-btn {
+  position: relative;
+  z-index: 1;
+}
+
+.gold-btn:hover {
+  transform: scale(1.05);
+}
+
+.gold-btn:active {
+  transform: scale(0.95);
+}
+
+/* Gold gradient shimmer animation */
+@keyframes goldMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+
+
+p{
+   font-family: Nunito, sans-serif !important;
+     font-size: 15px;
+     font-weight: 200;
+     line-height: 28px;
+     color: rgb(94, 95, 99);
+ }
+
+
+ .section-heading h2 {
+   
+    color: #E9B63B !important;
+    font-family: Raleway, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 27.6px;
+    color: rgb(44, 117, 186);
+}
+
+
+.gallery_text {
+    /* font-weight: 350 !important; */
+    font-family: Nunito, sans-serif !important;
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 27px;
+    color: rgb(94, 95, 99);
+  }
+  
+  
+  .subscribe-section .section-heading h4 {
+    /* font-weight: 600; */
+    color: #ffffff;
+    margin-bottom: 35px;
+    /* line-height: 1.2; */
+    font-family: Nunito, sans-serif !important;
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 28px;
+    /* color: rgb(94, 95, 99); */
+  }
+  
+  .font_custom{
+    
+    font-family: Nunito, sans-serif !important;
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 27px;
+    color: rgb(94, 95, 99);
+  }
+
+
+  .section-title {
+    text-align: center;
+    /* font-family: 'Georgia', serif; */
+    font-size: 2rem;
+    color: #E9B63B !important;
+    font-family: Raleway, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 27.6px;
+    margin-bottom: 2rem;
+}
+
+
+.special-content .meta-cat a {
+    color: #ffffff;
+    font-family: "Raleway", Sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+
+.special-section {
+    padding-bottom: 100px;
+    background: #F3EEE7;
+}
+
+
+
+
+
+
+
+/* Fixed Side Enquiry Button Container */
+.side-enquiry-btn {
+  position: fixed;
+  top: 50%;
+  right: -20px; /* distance from right edge */
+  transform: translateY(-50%);
+  z-index: 9999;
+}
+
+/* Animated Gold Button */
+.Btn_temp {
+  width: 250px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(to right, #77530a, #ffd277, #77530a, #ffd277);
+  background-size: 250%;
+  background-position: 0% 50%;
+  color: #ffffff;
+  font-weight: 600;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.2s;
+  overflow: hidden;
+  animation: goldMove 3s linear infinite;
+}
+
+/* Inner dark layer for text contrast */
+.Btn_temp::before {
+  content: "";
+  position: absolute;
+  inset: 3px;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0,-17.15);
+  z-index: 0;
+}
+
+/* Text stays on top */
+.Btn_temp {
+  position: relative;
+  z-index: 1;
+}
+
+.Btn_temp:hover {
+  transform: scale(1.05);
+}
+
+.Btn_temp:active {
+  transform: scale(0.95);
+}
+
+/* Gold gradient shimmer animation */
+@keyframes goldMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+
+.special-item .special-content {
+    background-color: #F7F6F2;
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.08);
+    margin-top: -50px;
+    padding: 30px;
+    position: relative;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.contact-section {
+    background-color: #206046;
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+
+
+.contact-section .contact-img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-top: 59px !important;
+    min-height: 70px !important;
+    padding-left: 25px;
+    width: 335px;
+}
+
+.destination-section {
+    padding-bottom: 100px;
+    padding-top: 40px;
+}
+
+.package-section {
+    padding-bottom: 100px;
+    padding-top: 40px;
+}
+
+.special-section {
+    padding-bottom: 100px;
+    padding-top: 40px;
+}
+
+.best-section {
+    padding-bottom: 70px;
+    padding-top: 40px;
+        background: #F7F6F2;
+}
