@@ -60,6 +60,7 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" type="text/css" href="style.css" />
     <title>Central Park 104</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body class="home">
     <div id="siteLoader" class="site-loader">
@@ -67,10 +68,11 @@
         <img src="assets/images/loader1.gif" alt="" />
       </div>
     </div>
+
     <div id="page" class="full-page">
       <header id="masthead" class="site-header header-primary">
-        <!-- header html start -->
-        <div class="top-header">
+        <!-- 🔹 Added class: header-animate-top -->
+        <div class="top-header header-animate-top">
           <div class="container">
             <div class="row">
               <div class="col-lg-8 d-none d-lg-block">
@@ -87,7 +89,6 @@
                         <span>service@teamrki.com</span>
                       </a>
                     </li>
-
                     <li>
                       <i class="fas fa-map-marker-alt"></i> Central Park 104,
                       Gurugram
@@ -95,47 +96,39 @@
                   </ul>
                 </div>
               </div>
+
               <div
                 class="col-lg-4 d-flex justify-content-lg-end justify-content-between"
               >
-                <div class="header-social social-links">
+                <!-- 🔹 Added class: social-animate -->
+                <div class="header-social social-links social-animate">
                   <ul>
                     <li>
-                      <a href="#"
-                        ><i class="fab fa-facebook-f" aria-hidden="true"></i
-                      ></a>
+                      <a href="#"><i class="fab fa-facebook-f"></i></a>
                     </li>
                     <li>
-                      <a href="#"
-                        ><i class="fab fa-twitter" aria-hidden="true"></i
-                      ></a>
+                      <a href="#"><i class="fab fa-twitter"></i></a>
                     </li>
                     <li>
-                      <a href="#"
-                        ><i class="fab fa-instagram" aria-hidden="true"></i
-                      ></a>
+                      <a href="#"><i class="fab fa-instagram"></i></a>
                     </li>
                     <li>
-                      <a href="#"
-                        ><i class="fab fa-linkedin" aria-hidden="true"></i
-                      ></a>
+                      <a href="#"><i class="fab fa-linkedin"></i></a>
                     </li>
                   </ul>
                 </div>
-                <!-- <div class="header-search-icon">
-                           <button class="search-icon">
-                              <i class="fas fa-search"></i>
-                           </button>
-                        </div> -->
               </div>
             </div>
           </div>
         </div>
-        <div class="bottom-header">
+
+        <!-- 🔹 Added class: header-animate-bottom -->
+        <div class="bottom-header header-animate-bottom">
           <div
             class="container d-flex justify-content-between align-items-center"
           >
-            <div class="site-identity">
+            <!-- 🔹 Added class: logo-animate -->
+            <div class="site-identity logo-animate">
               <h1 class="site-title">
                 <a href="index.html">
                   <img
@@ -151,84 +144,87 @@
                 </a>
               </h1>
             </div>
-            <div class="main-navigation d-none d-lg-block">
+
+            <!-- 🔹 Added class: nav-item-animate -->
+            <div class="main-navigation d-none d-lg-block nav-item-animate">
               <nav id="navigation" class="navigation">
                 <ul>
-                  <li class="menu-item-has-children">
-                    <a href="index.html">Home</a>
-                  </li>
-                  <li class="menu-item-has-children">
-                    <a href="#overview">Overview</a>
-                  </li>
-                  <li class="menu-item-has-children">
-                    <a href="#highlight">Highlights</a>
-                  </li>
-                  <li class="menu-item-has-children">
-                    <a href="#amenities">Amenities</a>
-                  </li>
-                  <li class="menu-item-has-children">
-                    <a href="#price">Price</a>
-                  </li>
-                  <li class="menu-item-has-children">
-                    <a href="#location">Location</a>
-                  </li>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="#overview">Overview</a></li>
+                  <li><a href="#highlight">Highlights</a></li>
+                  <li><a href="#amenities">Amenities</a></li>
+                  <li><a href="#price">Price</a></li>
+                  <li><a href="#location">Location</a></li>
                 </ul>
               </nav>
             </div>
+
             <div class="header-btn">
-              <a href="#" class="button-primary">Contact Us</a>
+              <!-- 🔹 Added class: pulse-btn -->
+              <a href="#" class="button-primary pulse-btn btn_bgColor"
+                >Contact Us</a
+              >
             </div>
           </div>
         </div>
+
         <div class="mobile-menu-container"></div>
       </header>
+
       <main id="content" class="site-main">
         <!-- Home slider html start -->
-        <section class="home-slider-section" id="home">
-          <div class="home-slider">
-            <div class="home-banner-items">
+        <section class="home-slider-section hero-animate" id="home">
+          <div class="home-slider fade-slider">
+            <!-- 🔹 Added class: banner-animate -->
+            <div class="home-banner-items banner-animate">
               <div
-                class="banner-inner-wrap"
+                class="banner-inner-wrap zoom-bg"
                 style="
-                  background-image: url(assets/central_park104/bg_img1.jpg);
+                  background-image: url(assets/central_park104/banner.webp);
                 "
               ></div>
+
               <div class="banner-content-wrap">
                 <div class="container">
-                  <div class="banner-content text-center">
+                  <!-- 🔹 Added class: text-fade -->
+                  <div class="banner-content text-center text-fade">
                     <h2 class="banner-title">
-                      Central Park 104 Luxury Living in the Heart of Gurugram
+                      CENTRAL PARK DELPHINE – Sector 104, Gurugram Ultra-Luxury
+                      High-Rise Residences
                     </h2>
-                    <p>
-                      Premium Residences | World-Class Amenities | Prime
-                      Location
+                    <p class="property-details">
+                      7.85 Acres | 219 Exclusive Units | 36 Floors |
+                      Skywalk-Connected Towers
                       <br />
-                      Studio Apartments starting price: ₹ 2.85 Cr.
+                      Studio Apartments starting price 2.85 Cr.
                     </p>
-                    <!-- <a href="#" class="button-primary">CONTINUE READING</a> -->
                   </div>
                 </div>
               </div>
               <div class="overlay"></div>
             </div>
-            <div class="home-banner-items">
+
+            <div class="home-banner-items banner-animate">
               <div
-                class="banner-inner-wrap"
-                style="background-image: url(assets/central_park104/gallery/banner.webp)"
+                class="banner-inner-wrap zoom-bg"
+                style="
+                  background-image: url(assets/central_park104/gallery/banner.webp);
+                "
               ></div>
+
               <div class="banner-content-wrap">
                 <div class="container">
-                  <div class="banner-content text-center">
+                  <div class="banner-content text-center text-fade">
                     <h2 class="banner-title">
-                      Central Park 104 Luxury Living in the Heart of Gurugram
+                      CENTRAL PARK DELPHINE – Sector 104, Gurugram Ultra-Luxury
+                      High-Rise Residences
                     </h2>
-                    <p>
-                      Premium Residences | World-Class Amenities | Prime
-                      Location.
+                  <p class="property-details">
+                      7.85 Acres | 219 Exclusive Units | 36 Floors |
+                      Skywalk-Connected Towers
                       <br />
-                      Studio Apartments starting price: ₹ 2.85 Cr.
+                      Studio Apartments starting price 2.85 Cr.
                     </p>
-                    <!-- <a href="#" class="button-primary">CONTINUE READING</a> -->
                   </div>
                 </div>
               </div>
@@ -239,50 +235,59 @@
 
         <!-- slider html start -->
         <!-- Home search field html start -->
-        <div class="trip-search-section shape-search-section">
-          <div class="slider-shape"></div>
+        <div class="trip-search-section shape-search-section section-animate">
+          <div class="slider-shape shape-float"></div>
+
           <div class="container">
-            <div class="trip-search-inner white-bg d-flex">
-              <div class="input-group">
+            <!-- 🔹 Added class: form-animate -->
+            <div class="trip-search-inner white-bg d-flex form-animate">
+              <div class="input-group fade-field">
                 <label> Full Name* </label>
                 <input type="text" name="s" placeholder="name" />
               </div>
-              <div class="input-group">
+
+              <div class="input-group fade-field">
                 <label> Number* </label>
                 <input type="number" name="s" placeholder="number" />
               </div>
-              <div class="input-group width-col-3">
+
+              <div class="input-group width-col-3 fade-field">
                 <label> Email* </label>
-                <input
-                  class=""
-                  type="email"
-                  required
-                  name="s"
-                  placeholder="email"
-                />
+                <input type="email" required name="s" placeholder="email" />
               </div>
-              <div class="input-group width-col-3">
+
+              <div class="input-group width-col-3 fade-field">
                 <label> Message </label>
-                <input class="" type="text" name="s" placeholder="message" />
+                <input type="text" name="s" placeholder="message" />
               </div>
-              <div class="input-group width-col-3">
+
+              <div class="input-group width-col-3 fade-field">
                 <label class="screen-reader-text"> Search </label>
-                <input type="submit" name="travel-search" value="INQUIRE NOW" />
+                <!-- 🔹 Added class: pulse-btn -->
+                <input
+                  type="submit"
+                  name="travel-search"
+                  value="INQUIRE NOW"
+                  class="pulse-btn"
+                />
               </div>
             </div>
           </div>
         </div>
 
+
+
+        
         <!-- search search field html end -->
-        <section class="destination-section" id="overview">
+        <section id="overview">
           <div class="container">
-            <div class="section-heading">
+            <div class="section-heading slide-in">
               <div class="row align-items-end">
-                <div class="col-lg-7">
+                <div class="col-lg-7 fade-text" data-aos="fade-right">
                   <h5 class="dash-style">Overview</h5>
                   <h3>
                     Central Park 104 – Live Life Above the Ordinary
-                    <h6>
+                    <h6 class="fade-text delay-1">
                       Enjoy seamless connectivity to IGI Airport, NCR corridors,
                       and upcoming metro lines, all from your sophisticated
                       high-rise residence. Rise above the city with spacious 3 &
@@ -291,7 +296,7 @@
                     </h6>
                   </h3>
                 </div>
-                <div class="col-lg-5">
+                <div class="col-lg-5 fade-text delay-2" data-aos="fade-left">
                   <div class="section-disc">
                     Experience new heights of luxury living at Central Park 104
                     on Dwarka Expressway, Gurugram—an iconic 7.5-acre community
@@ -300,11 +305,14 @@
                 </div>
               </div>
             </div>
-            <div class="destination-inner destination-three-column">
+
+            <div
+              class="destination-inner destination-three-column zoom-gallery"
+            >
               <div class="row">
                 <div class="col-lg-7">
                   <div class="row">
-                    <div class="col-sm-6">
+                    <div class="col-sm-6 zoom-in delay-1" data-aos="flip-right">
                       <div class="desti-item overlay-desti-item desti_div">
                         <figure class="desti-image">
                           <img
@@ -314,7 +322,7 @@
                         </figure>
                       </div>
                     </div>
-                    <div class="col-sm-6">
+                    <div class="col-sm-6 zoom-in delay-2" data-aos="flip-right">
                       <div class="desti-item overlay-desti-item">
                         <figure class="desti-image">
                           <img
@@ -326,9 +334,13 @@
                     </div>
                   </div>
                 </div>
+
                 <div class="col-lg-5">
                   <div class="row">
-                    <div class="col-md-6 col-xl-12">
+                    <div
+                      class="col-md-6 col-xl-12 zoom-in delay-3"
+                      data-aos="flip-right"
+                    >
                       <div class="desti-item overlay-desti-item">
                         <figure class="desti-image">
                           <img
@@ -338,7 +350,10 @@
                         </figure>
                       </div>
                     </div>
-                    <div class="col-md-6 col-xl-12">
+                    <div
+                      class="col-md-6 col-xl-12 zoom-in delay-4"
+                      data-aos="flip-right"
+                    >
                       <div class="desti-item overlay-desti-item">
                         <figure class="desti-image">
                           <img
@@ -359,7 +374,7 @@
         <section class="package-section" id="highlight">
           <div class="container">
             <div class="section-heading text-center">
-              <div class="row">
+              <div class="row" data-aos="fade-left">
                 <div class="col-lg-8 offset-lg-2">
                   <h5 class="dash-style">Highlights</h5>
                   <h2>Project Highlights</h2>
@@ -373,7 +388,7 @@
             </div>
             <div class="package-inner">
               <div class="row">
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6" data-aos="fade-down">
                   <div class="package-wrap">
                     <figure class="feature-image">
                       <a href="#">
@@ -400,7 +415,7 @@
                   </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up">
                   <div class="package-wrap">
                     <figure class="feature-image">
                       <a href="#">
@@ -426,7 +441,7 @@
                   </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6" data-aos="fade-down">
                   <div class="package-wrap">
                     <figure class="feature-image">
                       <a href="#">
@@ -445,13 +460,17 @@
                           >
                         </h3>
                         <p>
-                          Central Park is synonymous with luxury and excellence in real estate. Renowned for iconic developments, it creates world-class residences that embody elegance, comfort, quality, and a lifestyle truly beyond expectations.
+                          Central Park is synonymous with luxury and excellence
+                          in real estate. Renowned for iconic developments, it
+                          creates world-class residences that embody elegance,
+                          comfort, quality, and a lifestyle truly beyond
+                          expectations.
                         </p>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up">
                   <div class="package-wrap">
                     <figure class="feature-image">
                       <a href="#">
@@ -480,7 +499,7 @@
                   </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6" data-aos="fade-down">
                   <div class="package-wrap">
                     <figure class="feature-image">
                       <a href="#">
@@ -495,7 +514,8 @@
                       <div class="package-content">
                         <h3 class="package-heading-highlight">
                           <a href="#"
-                            >World-class amenities with clubhouse, green spaces, pool, and fitness zone.</a
+                            >World-class amenities with clubhouse, green spaces,
+                            pool, and fitness zone.</a
                           >
                         </h3>
 
@@ -509,12 +529,12 @@
                   </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up">
                   <div class="package-wrap">
                     <figure class="feature-image">
                       <a href="#">
                         <img
-                          src="assets/central_park104/gallery/security_gaurd.jpg"
+                          src="assets/central_park104/security.avif"
                           alt=""
                         />
                       </a>
@@ -746,20 +766,28 @@ From leisure to wellness, every detail enhances your lifestyle.
         </section> -->
         <!-- activity html end -->
 
-
-
-         <section class="price-section" id="price">
+        <section class="price-section" id="price">
           <div class="background-layer">
             <div class="bg-base"></div>
             <div class="bg-accent"></div>
           </div>
 
           <div class="container">
-            <h2 class="section-title">Central Park 104 Price</h2>
+            <h2
+              class="section-title"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+            >
+              Central Park 104 Price
+            </h2>
 
             <div class="price-grid">
               <!-- Studio -->
-              <article class="price-card">
+              <article
+                class="price-card"
+                data-aos="fade-down"
+                data-aos-duration="2500"
+              >
                 <div class="card-top"></div>
                 <div class="card-label">Studio</div>
                 <div class="card-content">
@@ -777,7 +805,11 @@ From leisure to wellness, every detail enhances your lifestyle.
               </article>
 
               <!-- 3 BHK -->
-              <article class="price-card">
+              <article
+                class="price-card"
+                data-aos="fade-left"
+                data-aos-duration="2500"
+              >
                 <div class="card-top"></div>
                 <div class="card-label">3 BHK</div>
                 <div class="card-content">
@@ -795,7 +827,11 @@ From leisure to wellness, every detail enhances your lifestyle.
               </article>
 
               <!-- 4 BHK -->
-              <article class="price-card">
+              <article
+                class="price-card"
+                data-aos="fade-left"
+                data-aos-duration="2500"
+              >
                 <div class="card-top"></div>
                 <div class="card-label">4 BHK</div>
                 <div class="card-content">
@@ -815,15 +851,12 @@ From leisure to wellness, every detail enhances your lifestyle.
           </div>
         </section>
 
-
-
-
         <!-- Home special section html start -->
         <section class="special-section" id="amenities">
           <div class="container">
             <div class="section-heading text-center">
               <div class="row">
-                <div class="col-lg-8 offset-lg-2">
+                <div class="col-lg-8 offset-lg-2" data-aos="fade-left">
                   <h5 class="dash-style">Amenities</h5>
                   <h2>Central Park 104 Amenities</h2>
                   <p>
@@ -836,13 +869,10 @@ From leisure to wellness, every detail enhances your lifestyle.
             </div>
             <div class="special-inner">
               <div class="row">
-                <div class="col-md-6 col-lg-4">
+                <div class="col-md-6 col-lg-4" data-aos="fade-down">
                   <div class="special-item">
                     <figure class="special-img">
-                      <img
-                        src="assets/central_park104/imgs/summingPool_amentities.jpg"
-                        alt=""
-                      />
+                      <img src="assets/central_park104/swimming.webp" alt="" />
                     </figure>
                     <!-- <div class="badge-dis">
                       <span>
@@ -866,7 +896,7 @@ From leisure to wellness, every detail enhances your lifestyle.
                   </div>
                 </div>
 
-                <div class="col-md-6 col-lg-4">
+                <div class="col-md-6 col-lg-4" data-aos="fade-up">
                   <div class="special-item">
                     <figure class="special-img">
                       <img src="assets/central_park104/imgs/gym2.avif" alt="" />
@@ -893,7 +923,7 @@ From leisure to wellness, every detail enhances your lifestyle.
                   </div>
                 </div>
 
-                <div class="col-md-6 col-lg-4">
+                <div class="col-md-6 col-lg-4" data-aos="fade-down">
                   <div class="special-item">
                     <figure class="special-img">
                       <img
@@ -923,7 +953,7 @@ From leisure to wellness, every detail enhances your lifestyle.
                   </div>
                 </div>
 
-                <div class="col-md-6 col-lg-4">
+                <div class="col-md-6 col-lg-4" data-aos="fade-up">
                   <div class="special-item">
                     <figure class="special-img">
                       <img
@@ -953,7 +983,7 @@ From leisure to wellness, every detail enhances your lifestyle.
                   </div>
                 </div>
 
-                <div class="col-md-6 col-lg-4">
+                <div class="col-md-6 col-lg-4" data-aos="fade-down">
                   <div class="special-item">
                     <figure class="special-img">
                       <img
@@ -983,7 +1013,7 @@ From leisure to wellness, every detail enhances your lifestyle.
                   </div>
                 </div>
 
-                <div class="col-md-6 col-lg-4">
+                <div class="col-md-6 col-lg-4" data-aos="fade-up">
                   <div class="special-item">
                     <figure class="special-img">
                       <img
@@ -1023,7 +1053,11 @@ From leisure to wellness, every detail enhances your lifestyle.
           <div class="container">
             <div class="row">
               <div class="col-lg-5">
-                <div class="section-heading">
+                <div
+                  class="section-heading"
+                  data-aos="fade-right"
+                  data-aos-duration="1000"
+                >
                   <h5 class="dash-style">OUR GALLERY</h5>
                   <h3 class="package-heading-highlight gallery_text">
                     Each image reflects the grandeur, design, and sophistication
@@ -1041,13 +1075,21 @@ From leisure to wellness, every detail enhances your lifestyle.
                     voluptates etiam, omnis.
                   </p> -->
                 </div>
-                <figure class="gallery-img">
+                <figure
+                  class="gallery-img"
+                  data-aos="flip-right"
+                  data-aos-duration="1500"
+                >
                   <img src="assets/central_park104/gallery/img1.webp" alt="" />
                 </figure>
               </div>
               <div class="col-lg-7">
                 <div class="row">
-                  <div class="col-sm-6">
+                  <div
+                    class="col-sm-6"
+                    data-aos="flip-right"
+                    data-aos-duration="1500"
+                  >
                     <figure class="gallery-img">
                       <img
                         src="assets/central_park104/gallery/img2.webp"
@@ -1055,7 +1097,11 @@ From leisure to wellness, every detail enhances your lifestyle.
                       />
                     </figure>
                   </div>
-                  <div class="col-sm-6">
+                  <div
+                    class="col-sm-6"
+                    data-aos="flip-right"
+                    data-aos-duration="1500"
+                  >
                     <figure class="gallery-img">
                       <img
                         src="assets/central_park104/gallery/img3.jpg"
@@ -1065,7 +1111,11 @@ From leisure to wellness, every detail enhances your lifestyle.
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col-12">
+                  <div
+                    class="col-12"
+                    data-aos="flip-right"
+                    data-aos-duration="1500"
+                  >
                     <figure class="gallery-img">
                       <img
                         src="assets/central_park104/gallery/img4.jpg"
@@ -1126,7 +1176,7 @@ From leisure to wellness, every detail enhances your lifestyle.
             background-image: url(assets/central_park104/gallery/banner.webp);
           "
         >
-          <div class="container">
+          <div class="container" data-aos="fade-right">
             <div class="row">
               <div class="col-lg-7">
                 <div class="section-heading section-heading-white">
@@ -1330,31 +1380,39 @@ From leisure to wellness, every detail enhances your lifestyle.
         </div> -->
         <!-- testimonial html end -->
 
-       
-
         <section class="location-section" id="location">
           <div class="container">
-            <h2 class="section-title">Central Park 104 Location</h2>
-            <p class="section-subtitle">
+            <h2
+              class="section-title"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+            >
+              Central Park 104 Location
+            </h2>
+            <p
+              class="section-subtitle"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+            >
               Discover Your Home in the Perfect Location | Easy access to NH-8,
               UER-II & Delhi
             </p>
 
             <div class="content-grid">
               <!-- Left Column: List -->
-              <div class="location-list">
+              <div class="location-list" data-aos="fade-right">
                 <ul>
                   <li>
                     <div class="item-info">
                       <span class="icon">&#9733;</span>
                       <span class="item-text">IGI Airport & Aerocity</span>
                     </div>
-                    <span class="item-time">15 Mins</span>
+                    <span class="item-time">10 Mins</span>
                   </li>
                   <li>
                     <div class="item-info">
                       <span class="icon">&#9733;</span>
-                      <span class="item-text">Railway Station</span>
+                      <span class="item-text">Gurgaon Railway Station</span>
                     </div>
                     <span class="item-time">10 Mins</span>
                   </li>
@@ -1362,7 +1420,7 @@ From leisure to wellness, every detail enhances your lifestyle.
                     <div class="item-info">
                       <span class="icon">&#9733;</span>
                       <span class="item-text"
-                        >Cambridge Montessori Gurgaon</span
+                        >Cambridge Montessori School Gurgaon</span
                       >
                     </div>
                     <span class="item-time">0 Mins</span>
@@ -1410,7 +1468,7 @@ From leisure to wellness, every detail enhances your lifestyle.
               </div>
 
               <!-- Right Column: Map -->
-              <div class="map-container">
+              <div class="map-container" data-aos="fade-left">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224456.74362517978!2d76.70474963281251!3d28.475432000000012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1700303982b1%3A0xbcfa085b101e12f9!2sCentral%20Park%20104!5e0!3m2!1sen!2sin!4v1760424408964!5m2!1sen!2sin"
                   frameborder="0"
@@ -1431,9 +1489,7 @@ From leisure to wellness, every detail enhances your lifestyle.
               <div class="col-lg-4">
                 <div
                   class="contact-img"
-                  style="
-                    background-image: url(assets/central_park104/logo.png);
-                  "
+                  style="background-image: url(assets/central_park104/logo.png)"
                 ></div>
               </div>
               <div class="col-lg-8">
@@ -1491,49 +1547,80 @@ From leisure to wellness, every detail enhances your lifestyle.
         <!--  contact details html end -->
 
         <!-- enquiry form  -->
-       <!-- Fixed Enquiry Button -->
-  <button class="enquiry-btn" id="openFormBtn">Enquiry</button>
-
-  <!-- Overlay with Form -->
-  <div class="overlay" id="formOverlay">
-    <div class="query-form-container">
-      <div class="query-form-header">
-        <h3>Query Form</h3>
-        <button type="button" class="close-btn" id="closeFormBtn" aria-label="Close">
-          <svg viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-width="2">
-            <path d="M6 6l12 12M18 6L6 18"></path>
-          </svg>
+        <!-- Fixed Enquiry Button -->
+        <button class="enquiry-btn btn_bgColor" id="openFormBtn">
+          Enquiry
         </button>
-      </div>
 
-      <form>
-        <div class="form-group">
-          <label for="name">Full Name</label>
-          <input id="name" type="text" placeholder="Enter full name" required />
+        <!-- Overlay with Form -->
+        <div class="overlay" id="formOverlay">
+          <div class="query-form-container">
+            <div class="query-form-header">
+              <h3>Query Form</h3>
+              <button
+                type="button"
+                class="close-btn"
+                id="closeFormBtn"
+                aria-label="Close"
+              >
+                <svg
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  fill="none"
+                  stroke-width="2"
+                >
+                  <path d="M6 6l12 12M18 6L6 18"></path>
+                </svg>
+              </button>
+            </div>
+
+            <form id="queryForm">
+              <div class="form-group">
+                <label for="name">Full Name</label>
+                <input
+                  id="name"
+                  type="text"
+                  placeholder="Enter full name"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="phone">Phone</label>
+                <input
+                  id="phone"
+                  type="tel"
+                  placeholder="Enter phone number"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input
+                  id="email"
+                  type="email"
+                  placeholder="Enter email address"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  rows="4"
+                  placeholder="Enter your message"
+                  required
+                ></textarea>
+              </div>
+
+              <button type="submit" class="submit-btn">Submit</button>
+            </form>
+
+            <p id="formStatus" class="form-status"></p>
+          </div>
         </div>
-
-        <div class="form-group">
-          <label for="phone">Phone</label>
-          <input id="phone" type="tel" placeholder="Enter phone number" required />
-        </div>
-
-        <div class="form-group">
-          <label for="email">Email</label>
-          <input id="email" type="email" placeholder="Enter email address" required />
-        </div>
-
-        <div class="form-group">
-          <label for="message">Message</label>
-          <textarea id="message" rows="4" placeholder="Enter your message" required></textarea>
-        </div>
-
-        <button type="submit" class="submit-btn">Submit</button>
-      </form>
-    </div>
-  </div>
-
-
-        
       </main>
 
       <!-- <footer id="colophon" class="site-footer footer-primary">
@@ -1687,7 +1774,6 @@ From leisure to wellness, every detail enhances your lifestyle.
         </div>
       </div>
 
-
       <!-- header html end -->
     </div>
 
@@ -1751,26 +1837,155 @@ From leisure to wellness, every detail enhances your lifestyle.
       crossorigin="anonymous"
     ></script>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      // wait until everything (images/fonts) loaded, then init & refresh
+      window.addEventListener("load", function () {
+        AOS.init({
+          duration: 2000,
+          once: false, // set true if you want the animation to run only once
+          offset: 120, // trigger point (adjust to taste)
+          easing: "ease-out-cubic",
+          mirror: false, // whether elements animate out while scrolling past
+        });
+        AOS.refresh(); // recompute positions once more after load
+      });
+    </script>
 
     <!-- logic of form open using form enquiry btn  -->
-      <script>
-    const openBtn = document.getElementById("openFormBtn");
-    const closeBtn = document.getElementById("closeFormBtn");
-    const overlay = document.getElementById("formOverlay");
+    <script>
+      const openBtn = document.getElementById("openFormBtn");
+      const closeBtn = document.getElementById("closeFormBtn");
+      const overlay = document.getElementById("formOverlay");
 
-    openBtn.addEventListener("click", () => {
-      overlay.classList.add("active");
-    });
+      openBtn.addEventListener("click", () => {
+        overlay.classList.add("active");
+      });
 
-    closeBtn.addEventListener("click", () => {
-      overlay.classList.remove("active");
-    });
+      closeBtn.addEventListener("click", () => {
+        overlay.classList.remove("active");
+      });
 
-    // Close when clicking outside form
-    overlay.addEventListener("click", (e) => {
-      if (e.target === overlay) overlay.classList.remove("active");
+      // Close when clicking outside form
+      overlay.addEventListener("click", (e) => {
+        if (e.target === overlay) overlay.classList.remove("active");
+      });
+    </script>
+
+    <!-- email js  -->
+    <!-- EmailJS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script>
+      (function () {
+        emailjs.init("aWUg-cd1ayayTnDyk"); // ✅ Your public key
+      })();
+
+      document
+        .getElementById("queryForm")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+
+          const name = document.getElementById("name").value.trim();
+          const phone = document.getElementById("phone").value.trim();
+          const email = document.getElementById("email").value.trim();
+          const message = document.getElementById("message").value.trim();
+          const status = document.getElementById("formStatus");
+
+          // Validation
+          if (!/^\d{10}$/.test(phone)) {
+            status.textContent = "❌ Phone number must be exactly 10 digits.";
+            status.className = "form-status error";
+            return;
+          }
+
+          const params = {
+            from_name: name,
+            from_number: phone,
+            from_email: email,
+            from_message: message,
+            to_name: "team Rki",
+            to_email: "teamrki946@gmail.com",
+          };
+
+          emailjs
+            .send("service_2aphpxr", "template_rb4khe5", params)
+            .then(() => {
+              status.textContent =
+                "✅ Your message has been sent successfully!";
+              status.className = "form-status success";
+              document.getElementById("queryForm").reset();
+
+              // Optional: hide message after 5s
+              setTimeout(() => (status.style.display = "none"), 5000);
+            })
+            .catch((error) => {
+              console.error("EmailJS Error:", error);
+              status.textContent = "❌ Something went wrong. Please try again.";
+              status.className = "form-status error";
+            });
+        });
+    </script>
+
+
+
+
+
+<!-- hero section form  -->
+ <!-- EmailJS CDN -->
+
+<script>
+  (function() {
+    emailjs.init("aWUg-cd1ayayTnDyk"); // ✅ Your EmailJS public key
+  })();
+
+  document.addEventListener("DOMContentLoaded", function () {
+    const formContainer = document.querySelector(".trip-search-inner");
+    const submitBtn = formContainer.querySelector("input[type='submit']");
+
+    submitBtn.addEventListener("click", function (e) {
+      e.preventDefault();
+
+      // Get input values (in order)
+      const inputs = formContainer.querySelectorAll("input[type='text'], input[type='number'], input[type='email']");
+      const name = inputs[0].value.trim();
+      const phone = inputs[1].value.trim();
+      const email = inputs[2].value.trim();
+      const message = inputs[3].value.trim();
+
+      // Validate
+      if (!name || !phone || !email) {
+        alert("⚠️ Please fill all required fields (Name, Number, Email).");
+        return;
+      }
+      if (!/^\d{10}$/.test(phone)) {
+        alert("⚠️ Please enter a valid 10-digit phone number.");
+        return;
+      }
+
+      // Prepare data
+      const params = { 
+        from_name: name, 
+        from_number : phone,
+         from_email : email,
+        from_message: message,
+       to_name: "team Rki",
+        to_email: "teamrki946@gmail.com",
+       };
+
+      // Send using EmailJS
+      emailjs.send("service_2aphpxr", "template_rb4khe5", params)
+        .then(() => {
+          alert("✅ Thank you! Your inquiry has been sent successfully.");
+          inputs.forEach(input => input.value = "");
+        })
+        .catch((err) => {
+          console.error("EmailJS Error:", err);
+          alert("❌ Something went wrong. Please try again later.");
+        });
     });
-  </script>
+  });
+</script>
+
   </body>
 
   <!-- Mirrored from demo.bosathemes.com/html/travele/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 18 Oct 2025 13:01:06 GMT -->
