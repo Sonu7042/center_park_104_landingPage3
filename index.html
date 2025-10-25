@@ -283,7 +283,7 @@
                   <h5 class="dash-style">Overview</h5>
                   <h3>
                     Central Park 104 – Live Life Above the Ordinary
-                    <h6 class="font_custom">
+                    <h6 class="font_custom padding-bottom">
                       Enjoy seamless connectivity to IGI Airport, NCR corridors,
                       and upcoming metro lines, all from your sophisticated
                       high-rise residence. Rise above the city with spacious 3 &
@@ -1128,8 +1128,8 @@ From leisure to wellness, every detail enhances your lifestyle.
          <section class="container-fluid floorplan-container after_before" id="floor-plan">
         <div class="container">
             <div class="headings">
-                <h4 class="common-title">Floor Plan</h4>
-                <div class="common-heading">Apartments &amp; Penthouse</div>
+                <!-- <h4 class="common-title"></h4> -->
+                <div class="common-heading">Floor Plan</div>
             </div>
         </div>
 
@@ -1142,7 +1142,8 @@ From leisure to wellness, every detail enhances your lifestyle.
                             <img class="floor-img" src="./assets//central_park104/floor_1.png" alt="">
                         <!-- </a> -->
                         <span class="typo"></span>
-                        <button class="positiondbtn custombtn1 Btn" data-target="#customModal" data-toggle="modal">View Detail</button>
+                        <button class="positiondbtn custombtn1 Btn openViewPlan1
+                        " data-target="#customModal" data-toggle="modal">View Detail</button>
                     </div>
                 </div>
                 <div class="plans-box col-md-6 col-sm-6 col-lg-4 position-relative custom_py"  data-aos="flip-right">
@@ -1151,7 +1152,7 @@ From leisure to wellness, every detail enhances your lifestyle.
                             <img class="floor-img" src="./assets//central_park104/floor_2.png" alt="">
                         <!-- </a> -->
                         <span class="typo"></span>
-                        <button class="positiondbtn custombtn1 Btn  " data-target="#customModal"  data-toggle="modal">View Detail</button>
+                        <button class="positiondbtn custombtn1 Btn  openViewPlan2 " data-target="#customModal"  data-toggle="modal">View Detail</button>
                     </div>
                 </div>
                 <div class="plans-box col-md-6 col-sm-6 col-lg-4 position-relative py-5"  data-aos="flip-right">
@@ -1160,7 +1161,7 @@ From leisure to wellness, every detail enhances your lifestyle.
                             <img class="floor-img" src="./assets//central_park104/floor_1.png" alt="">
                         <!-- </a> -->
                         <span class="typo"></span>
-                        <button class="positiondbtn custombtn1 Btn" data-target="#customModal" data-toggle="modal">View Detail</button>
+                        <button class="positiondbtn custombtn1 Btn openViewPlan3" data-target="#customModal" data-toggle="modal">View Detail</button>
                     </div>
                 </div>
             </div>
@@ -1911,6 +1912,9 @@ From leisure to wellness, every detail enhances your lifestyle.
       const closeBtn = document.getElementById("closeFormBtn");
       const overlay = document.getElementById("formOverlay");
       const openBtn2 = document.querySelector(".openFormBtn2");
+      const openViewPlan1 = document.querySelector(".openViewPlan1");
+      const openViewPlan2 = document.querySelector(".openViewPlan2");
+      const openViewPlan3 = document.querySelector(".openViewPlan3");
 
 
       openBtn.addEventListener("click", () => {
@@ -1923,6 +1927,28 @@ From leisure to wellness, every detail enhances your lifestyle.
         console.log("sonu")
         overlay.classList.add("active");
       });
+
+
+        openViewPlan1.addEventListener("click", () => {
+        console.log("sonu")
+        overlay.classList.add("active");
+      });
+
+        openViewPlan2.addEventListener("click", () => {
+        console.log("sonu")
+        overlay.classList.add("active");
+      });
+      
+
+        openViewPlan3.addEventListener("click", () => {
+        console.log("sonu")
+        overlay.classList.add("active");
+      });
+
+
+
+
+      
 
       closeBtn.addEventListener("click", () => {
         overlay.classList.remove("active");
